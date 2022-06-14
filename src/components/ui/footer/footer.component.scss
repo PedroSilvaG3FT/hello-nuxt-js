@@ -1,0 +1,5 @@
+#footer {
+  > section {
+    @extend .app-container;
+  }
+}

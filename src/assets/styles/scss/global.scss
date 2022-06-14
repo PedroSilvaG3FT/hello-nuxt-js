@@ -1,0 +1,8 @@
+@import './tailwind';
+@import './variables';
+@import './custom/custom.scss';
+
+body {
+  background: $bg-primary;
+  color: $text;
+}

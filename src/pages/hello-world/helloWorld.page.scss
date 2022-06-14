@@ -1,0 +1,23 @@
+#helloWorld {
+  @extend .app-container;
+  @apply min-h-[90vh] flex flex-col items-center justify-center;
+
+  > h1 {
+    @apply mb-6 text-[3rem] font-bold;
+  }
+
+  > form {
+    @apply w-[40vw];
+
+    > div {
+      @extend .form-group;
+    }
+
+    > button {
+      @apply mt-8;
+      @extend .btn;
+      color: $white;
+      background: $primary;
+    }
+  }
+}

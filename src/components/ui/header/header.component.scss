@@ -1,0 +1,9 @@
+#header {
+  @apply py-5;
+  color: $white;
+  background: $primary;
+
+  > nav {
+    @extend .app-container;
+  }
+}
