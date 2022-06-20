@@ -1,5 +1,5 @@
 .btn {
-  @apply rounded-lg h-11 px-6 border;
+  @apply rounded h-11 px-6 border;
 
   &:disabled {
     @apply opacity-80 cursor-not-allowed;

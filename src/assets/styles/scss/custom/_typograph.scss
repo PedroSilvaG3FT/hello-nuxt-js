@@ -1,0 +1,8 @@
+.app-title {
+  @apply font-bold text-xl sm:text-base;
+
+  &:before {
+    content: '•';
+    @apply mr-6 sm:mr-3;
+  }
+}

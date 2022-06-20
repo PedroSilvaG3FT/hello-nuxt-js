@@ -1,7 +1,9 @@
 <template>
   <section id="default">
     <Header></Header>
-    <Nuxt></Nuxt>
+    <main>
+      <Nuxt></Nuxt>
+    </main>
     <Footer></Footer>
   </section>
 </template>

@@ -1,6 +1,8 @@
 <template>
   <footer id="footer">
-    <section>footer</section>
+    <section>
+      <small>{{ year }} - Copywriting </small>
+    </section>
   </footer>
 </template>
 

@@ -13,6 +13,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'import/no-named-as-default': 0,
+    'vue/attribute-hyphenation': 'off',
     'vue/multi-word-component-names': 0,
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',

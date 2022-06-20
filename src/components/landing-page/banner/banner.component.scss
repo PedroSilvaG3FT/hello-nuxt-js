@@ -1,0 +1,10 @@
+$w-aside: 35%;
+
+#banner {
+  @apply h-[100vh] w-full flex justify-center items-center;
+  @extend .app-container;
+
+  > p {
+    @apply w-3/5 font-extrabold text-xl leading-none md:text-base md:text-center md:w-full;
+  }
+}

@@ -1,7 +1,13 @@
 <template>
-  <section class="h-[100vh] flex items-center justify-center">
-    <NuxtLink to="/hello-world" class="btn flex items-center">
-      Go To Hello World!
-    </NuxtLink>
+  <section id="landingPage">
+    <Banner></Banner>
   </section>
 </template>
+
+<script>
+export default {
+  components: {
+    Banner: () => import('@/components/landing-page/banner'),
+  },
+}
+</script>

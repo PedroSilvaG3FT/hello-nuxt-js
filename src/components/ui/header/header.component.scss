@@ -1,9 +1,38 @@
 #header {
-  @apply py-5;
-  color: $white;
-  background: $primary;
+  @apply fixed z-30	w-full flex justify-center transition-all duration-500;
+  height: $header-height;
 
   > nav {
+    color: $primary;
+    height: $header-height;
     @extend .app-container;
+    @apply fixed flex items-center md:justify-between;
+
+    > img {
+      @apply max-w-[74px] cursor-pointer;
+    }
+
+    > article {
+      @apply ml-8 md:hidden;
+
+      > a {
+        @apply mx-2 font-bold cursor-pointer;
+
+        &:hover,
+        &.active {
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1018px) {
+    @apply shadow-md;
+    background: $bg-primary;
+  }
+
+  &.header-color {
+    @apply shadow-md;
+    background: $bg-primary;
   }
 }

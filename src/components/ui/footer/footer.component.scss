@@ -1,5 +1,12 @@
 #footer {
+  height: $footer-height;
+
   > section {
+    @apply h-full flex justify-center items-center;
     @extend .app-container;
+
+    > small {
+      @apply sm:whitespace-nowrap sm:text-[70%];
+    }
   }
 }

@@ -9,7 +9,7 @@
   > select,
   > textarea {
     border-color: $primary;
-    @apply w-full h-11 py-1 px-3 block rounded-md border border-solid invalid:border-red-500;
+    @apply w-full h-11 py-1 px-3 block rounded-md border border-solid;
 
     &:focus {
       @apply outline-none;

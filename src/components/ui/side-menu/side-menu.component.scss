@@ -1,0 +1,29 @@
+#sideMenu {
+  @apply fixed h-[100vh] w-[100vw] z-30	p-8 flex flex-col;
+  @extend .app-container;
+  background: $primary;
+  color: $bg-primary;
+
+  > nav {
+    @apply flex items-center justify-between;
+
+    > img {
+      @apply w-[74px];
+      filter: brightness(0) invert(1);
+    }
+    > button {
+      @apply w-8 h-8 flex self-end items-center justify-center rounded-full;
+
+      background: $white;
+      color: $primary;
+    }
+  }
+
+  > article {
+    @apply w-full mt-20 flex flex-col;
+
+    > span {
+      @apply py-4 cursor-pointer font-bold;
+    }
+  }
+}
